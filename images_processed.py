@@ -18,8 +18,8 @@ def show_image(image, title):
     plt.title(title)
     plt.show()
 
-target_height = 300
-target_width = 400
+target_height = 150
+target_width = 200
 
 def resize_image(dataset, folder):
     for filename in dataset:
